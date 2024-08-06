@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: rgb(232, 232, 232);
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    border-bottom: 1px solid grey;
+    background-color: rgb(232, 232, 232);
+}
+.Brand {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -5px;
+    right: -90px;
+    font-size: 13px;
+}
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    top: 15px;
+    font-size: 13px;
+    right: -25px;
+}
+.Partright {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    top: 15px;
+    right: 100px;
+    font-size: 13px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    position: relative;
+    left: 100px;
+    top: 40px;
+    width: fit-content;
+}
+.Conleft {
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(232, 232, 232);
+    width: 50vw;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+.GoogleDocs {
+    position: relative;
+    left: 15%;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: 200px;
+    align-items: center;
+}
+.GoogleSlides {
+    position: relative;
+    left: 15%;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: 200px;
+    align-items: center;
+    bottom: -20px;
+}
+.ButtDelete1 {
+    position: relative;
+    left: 50px;
+    display: flex;
+    align-items: center;
+}
+.ButtDelete2 {
+    position: relative;
+    left: 50px;
+    display: flex;
+    align-items: center;
+}
+.ImgGoogleDocs {
+    position: relative;
+    left: 100px;
+    border-radius: 25px;
+    width: 160Px;
+    height: 160px;
+    overflow: hidden;
+}
+.ImgGoogleDocs img {
+    width: 100%;
+}
+.ImgGoogleSlides {
+    position: relative;
+    left: 100px;
+    border-radius: 25px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+}
+.ImgGoogleSlides img {
+    width: 100%;
+ 
+}
+.InfoGoogleDocs {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 150px;
+    height: 120px;
+    width: 200px;
+}
+.circle1, .circle2 {
+    display: flex;
+    gap: 3px;
+}
+.c21, .c22, .c23 ,.c24 {
+    background-color: lightgray;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.c21, .c22, .c23 {
+    background-color: rgba(0, 219, 182, 1);
+}
+.c11, .c12, .c13 {
+    background-color: lightgray;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.c11 {
+    background-color: rgba(0, 219, 182, 1);
+}
+.SubInfoGD1, .SubInfoGD2 {
+    font-size: 20px;
+}
+.rating1, .rating2 {
+    display: flex;
+    gap: 3px;
+    margin-top: 10px;
+    
+}
+.SubInfoP1, .SubInfoP2 {
+    margin-top: 50px;
+    color: gray;
+
+}
+.InfoGoogleSlides {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 150px;
+    height: 120px;
+    width: 200px;
+}
+.Conright {
+    position: absolute;
+    bottom: 0px;
+    background-color:rgb(232, 232, 232);
+    width: 50vw;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    left: 50vw;
+}
+.frameinfo {
+    position: relative;
+    left: 2%;
+    border-radius: 20px;
+    border: 1px solid gray;
+    background-color: rgb(232, 232, 232);
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    height: 350px;
+    align-items: center;
+}
+.Orderinfo {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 5%;
+    height: 200px;
+    width: 85%;
+    background-color: rgb(232, 232, 232);
+    gap: 40px;
+    border-bottom: 1px solid gray;
+}
+.Headinfo {
+    font-size: 20px;
+}
+.Subtotal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Sub { color: gray;}
+.Promotion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+.ButtApply {
+    padding: 0 20px;
+    background-color: rgb(232, 232, 232);
+    border-radius: 5px;
+    border: 1px solid rgba(0, 219, 182, 1);
+}
+.ButtApply p {
+    color: rgba(0, 219, 182, 1);
+}
+.Totalpayment {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: -35px;
+    height: 100px;
+    width: 85%;
+    background-color: rgb(232, 232, 232);
+}
+.Price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Amount {
+    font-size: 30px;
+    color: rgba(0, 219, 182, 1);
+}
+.ButtCheckout {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(0, 219, 182, 1);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    box-shadow: 1px 1px black;
+}
+.ButtCheckout p {
+    font-size: 10px;
+}
